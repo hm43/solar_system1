@@ -1,0 +1,160 @@
+{
+  "planets": [
+    {
+      "name": "Mercury",
+      "color": "#919EAC",
+      "size": 0.24,
+      "distance": 15,
+      "radius": 1,
+      "speed": 0.02,
+      "rotationSpeed": 0.01,
+      "period": 88,
+      "inclination": 7.0,
+      "info": "The fastest planet. Closest to the Sun.",
+      "moons": []
+    },
+    {
+      "name": "Venus",
+      "color": "#E6DB68",
+      "size": 0.61,
+      "distance": 20,
+      "radius": 1.8,
+      "speed": 0.015,
+      "rotationSpeed": 0.002,
+      "period": 225,
+      "inclination": 3.4,
+      "info": "The hottest planet. Spins backwards.",
+      "moons": []
+    },
+    {
+      "name": "Earth",
+      "color": "#287AB8",
+      "size": 0.64,
+      "distance": 30,
+      "radius": 2,
+      "speed": 0.01,
+      "rotationSpeed": 0.02,
+      "period": 365,
+      "inclination": 0.0,
+      "info": "Our home. Has water and life.",
+      "moons": [
+        {
+          "name": "Moon",
+          "distance": 4,
+          "radius": 0.4,
+          "speed": 0.05,
+          "color": "#F4F6F0",
+          "rotationSpeed": 0.01
+        }
+      ]
+    },
+    {
+      "name": "Mars",
+      "color": "#CF5835",
+      "size": 0.34,
+      "distance": 40,
+      "radius": 1.2,
+      "speed": 0.008,
+      "rotationSpeed": 0.018,
+      "period": 687,
+      "inclination": 1.85,
+      "info": "The Red Planet. Home to largest volcano.",
+      "moons": [
+        {
+          "name": "Phobos",
+          "distance": 2.5,
+          "radius": 0.2,
+          "speed": 0.08,
+          "color": "#8E8B82",
+          "rotationSpeed": 0.02
+        },
+        {
+          "name": "Deimos",
+          "distance": 3.5,
+          "radius": 0.15,
+          "speed": 0.06,
+          "color": "#7C7872",
+          "rotationSpeed": 0.015
+        }
+      ]
+    },
+    {
+      "name": "Jupiter",
+      "color": "#C99039",
+      "size": 6.99,
+      "distance": 60,
+      "radius": 8,
+      "speed": 0.004,
+      "rotationSpeed": 0.05,
+      "period": 4333,
+      "inclination": 1.3,
+      "info": "The Gas Giant. Largest planet.",
+      "moons": [
+        {
+          "name": "Europa",
+          "distance": 10,
+          "radius": 0.8,
+          "speed": 0.04,
+          "color": "#DACCBC",
+          "rotationSpeed": 0.02
+        },
+        {
+          "name": "Ganymede",
+          "distance": 14,
+          "radius": 1.1,
+          "speed": 0.03,
+          "color": "#7C6E63",
+          "rotationSpeed": 0.018
+        }
+      ]
+    },
+    {
+      "name": "Saturn",
+      "color": "#EBD775",
+      "size": 5.82,
+      "distance": 85,
+      "radius": 7,
+      "speed": 0.002,
+      "rotationSpeed": 0.04,
+      "period": 10759,
+      "inclination": 2.5,
+      "info": "The Ringed Planet. Beautiful rings.",
+      "moons": [
+        {
+          "name": "Titan",
+          "distance": 12,
+          "radius": 1.5,
+          "speed": 0.03,
+          "color": "#E8C75A",
+          "rotationSpeed": 0.02
+        }
+      ]
+    },
+    {
+      "name": "Uranus",
+      "color": "#93B8BE",
+      "size": 2.54,
+      "distance": 110,
+      "radius": 4,
+      "speed": 0.001,
+      "rotationSpeed": 0.03,
+      "period": 30687,
+      "inclination": 0.77,
+      "info": "The Ice Giant. Rotates on its side.",
+      "moons": []
+    },
+    {
+      "name": "Neptune",
+      "color": "#4B70DD",
+      "size": 2.46,
+      "distance": 130,
+      "radius": 3.8,
+      "speed": 0.0009,
+      "rotationSpeed": 0.035,
+      "period": 60190,
+      "inclination": 1.77,
+      "info": "The Windy Giant. Fastest winds in solar system.",
+      "moons": []
+    }
+  ]
+}
